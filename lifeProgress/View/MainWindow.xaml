@@ -1,0 +1,10 @@
+﻿<Window x:Class="lifeProgress.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lifeProgress"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="716" Width="884">
+    <local:MyClass x:Name="MyObject1" local:MyProperty="20"></local:MyClass>
+</Window>
